@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shekhar Thakur | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section🤖 -->
+    <header class="header">
+      <a href="#" class="logo"><span>Shekhar Thakur.</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <button class="visit-btn">Visit GitHub</button>
+    </header>
+
+    <!-- About Section😎 -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="/assets/profilepic.png" alt="" />
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Shekhar Thakur.</h1>
+            <span
+              >Creative Problem Solver | Building Websites that Make a
+              Difference in Everyday Life.</span
+            >
+          </div>
+
+          <div class="btn-group">
+            <div class="btn" id="download-cv">Download CV</div>
+            <div class="btn" id="contact-gmailid">Contact</div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-github" id="github-icon"></i>
+            <i class="fa-brands fa-linkedin" id="linkedin-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+     <section id="experience" class="experience">
+        
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Full Stack Developer</span>
+                    <h3>Internship</h3>
+                    <p>Currently employed at EazyByts as a Full Stack Web Developer, with a primary focus on frontend development.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Skills</span>
+                    <div>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-node-js"></i>
+                        <i class="fa-brands fa-git-alt"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-figma"></i>
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/pc.png" alt="experience">
+        </div>
+     </section>
+
+     <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="/assets/proj_1.webp" alt="">
+                <h3>Author Verse</h3>
+                <p>Author Verse, which supports collaborative promotion for authors.</p>
+                <div class="btn-group">
+                    <div class="btn" id="author-verse">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="/assets/proj_3.jpg" alt="">
+                <h3>SuperKart</h3>
+                <p>Superkart: E-commerce app with React, Redux, Firebase for secure shopping.</p>
+                <div class="btn-group">
+                    <div class="btn" id="super-kart">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="/assets/proj_2.webp" alt="">
+                <h3>Convo App</h3>
+                <p>Convo App is a full stack (dynamic and responsive) web application that allows users to convert their documents to PDF format with a single click.</p>
+                <div class="btn-group">
+                    <div class="btn" id="convo-app">GitHub Repo</div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+       <section id="contact" class="contact">
+        <div class="input-box">
+          <h2 class="section-title">Contact Me</h2>
+          
+          <!-- Email Input -->
+          <div class="input">
+            <input type="email" id="email" placeholder="example@email.com" required>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <!-- Query Input -->
+           <div class="input">
+            <input type="text" id="query" placeholder="How can I help you?" required>
+           </div>
+
+          <!-- Submit Button -->
+          <div class="btn" onclick="sendEmail()">Submit</div>
+
+          <!-- Success Message -->
+           <p id="successMessage" style="display: none; color: green; margin-top: 10px;">Message sent successfully🚀</p>
+        </div>
+       </section>
+
+       <!-- Footer Section🦶 -->
+        <footer>
+          <ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <p class="copyright">Created with ❤️ by me.</p>
+        </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
