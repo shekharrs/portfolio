@@ -16,9 +16,9 @@ const contactGmailId = document.querySelector('#contact-gmailid').addEventListen
     window.location.href = "mailto:shekharrs2002@gmail.com";
 });
 
-/* Implement the logic on #github-icon */
-const githubIcon = document.querySelector('#github-icon').addEventListener('click', () => {
-    window.open('https://github.com/shekharrs?tab=repositories', '_blank');
+/* Implement the logic on #twitter-icon */
+const githubIcon = document.querySelector('#twitter-icon').addEventListener('click', () => {
+    window.open('https://x.com/Shekharrsthakur', '_blank');
 });
 
 /* Implement the logic on #linkedin-icon */
