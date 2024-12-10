@@ -31,14 +31,14 @@ const authorVerse = document.querySelector('#author-verse').addEventListener('cl
     window.open('https://github.com/shekharrs/AuthorVerse', '_blank');
 });
 
-/* Implement the logic on #super-kart */
-const superKart = document.querySelector('#super-kart').addEventListener('click', () => {
-    window.open('https://github.com/shekharrs/SuperKart', '_blank');
-});
-
 /* Implement the logic on #convo-app */
 const convoApp = document.querySelector('#convo-app').addEventListener('click', () => {
     window.open('https://github.com/shekharrs/ConvoApp', '_blank');
+});
+
+/* Implement the logic on #chess-game */
+const chessGame = document.querySelector('#chess-game').addEventListener('click', () => {
+    window.open('https://github.com/shekharrs/Chess', '_blank');
 });
 
 /* Function to handle email sending for Contact Section */
@@ -68,9 +68,9 @@ document.getElementById('download-cv').addEventListener('click', function() {
     // Create an anchor element
     const link = document.createElement('a');
     // Set the href to the path of your CV file
-    link.href = '/assets/SHEKHAR_THAKUR_RESUME.pdf';
+    link.href = '/assets/Shekhar_Resume.pdf';
     // Set the download attribute with the file name for download
-    link.download = 'Shekhar_Thakur_CV.pdf';
+    link.download = 'Shekhar_Resume.pdf';
     // Append the anchor to the body (necessary for firefox)
     document.body.appendChild(link);
     // Programmatically click the link to trigger the download
