@@ -41,6 +41,11 @@ const chessGame = document.querySelector('#chess-game').addEventListener('click'
     window.open('https://github.com/shekharrs/Chess', '_blank');
 });
 
+/* Implement the logic on #employee-management-system */
+const employeeManagementSystem = document.querySelector('#ems').addEventListener('click', () => {
+    window.open('https://github.com/shekharrs/Employee-Management-System/', '_blank');
+});
+
 /* Function to handle email sending for Contact Section */
 function sendEmail() {
     const email = document.getElementById("email").value;
