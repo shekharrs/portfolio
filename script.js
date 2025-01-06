@@ -73,9 +73,9 @@ document.getElementById('download-cv').addEventListener('click', function() {
     // Create an anchor element
     const link = document.createElement('a');
     // Set the href to the path of your CV file
-    link.href = '/assets/Shekhar_Resume.pdf';
+    link.href = '/assets/ShekharThakur.pdf';
     // Set the download attribute with the file name for download
-    link.download = 'Shekhar_Resume.pdf';
+    link.download = 'ShekharThakur.pdf';
     // Append the anchor to the body (necessary for firefox)
     document.body.appendChild(link);
     // Programmatically click the link to trigger the download
